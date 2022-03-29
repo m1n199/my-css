@@ -1,0 +1,13 @@
+.clear-both{clear:both}
+body{height:2000px;background:#5553}
+#header {position: fixed;margin: 5px;right: 0;left: 0;height: 45px;text-align: center;}
+#header .wrap-1{z-index: 50;background: #fff;}
+#header #wrap-2,#header .wrap-1{position: absolute;width: 100%;}
+#header span{font-size: 25px;}
+#header span.icon{width: 25px;height: 25px;margin: 10px;}
+#header span:nth-child(1){float: left;}
+#header span:nth-child(){}
+#header span:nth-child(3){float: right;}
+#header #wrap-2{transition:top .7s ;top: 0;}
+.isSearch #header #wrap-2{top:48px;}
+#header .BlogSearch .search-input input{border: none;outline: none;width: 100%;font-size: 20px;text-align: center;padding: 5px;}
